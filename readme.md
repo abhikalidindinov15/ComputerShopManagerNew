@@ -299,6 +299,37 @@ Copy code
     "quantity": 2,
     "saleDate": "2023-01-01T10:00:00"
 }
+
+## Stock Report Download Feature
+
+### New Endpoint: Download Stock Report as CSV
+
+**Endpoint:** `GET /api/report/stock/download`
+
+**Description:** Downloads the current stock report as a CSV file with a timestamped filename.
+
+**Response:** 
+- Content-Type: `text/csv`
+- Content-Disposition: `attachment; filename=stock_report_YYYYMMDD_HHMMSS.csv`
+
+**CSV Format:**
+```
+Id,Name,Quantity,Price
+1,Laptop,3,1200
+2,Mouse,88,10
+...
+```
+
+**Usage:**
+- Via Browser: Navigate to `http://localhost:5235/api/report/stock/download`
+- Via curl: `curl -O http://localhost:5235/api/report/stock/download`
+- Via Postman: Send GET request and download response
+
+**Features:**
+- Automatically generates timestamped filename
+- Properly escapes CSV values containing commas, quotes, or newlines
+- Returns data from the existing stock report generation service
+
 This should successfully insert records into ComputerShopManager.db.
 
 

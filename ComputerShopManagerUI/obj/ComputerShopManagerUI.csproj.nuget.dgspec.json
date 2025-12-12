@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ivc21101adm\\Desktop\\Code Conversion\\CodeConversionPlugin\\DotnetProjectDemoFunctionality\\ComputerShopManagement-main\\ComputerShopManagerUI\\ComputerShopManagerUI.csproj": {}
+    "/home/runner/work/ComputerShopManagerNew/ComputerShopManagerNew/ComputerShopManagerUI/ComputerShopManagerUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ivc21101adm\\Desktop\\Code Conversion\\CodeConversionPlugin\\DotnetProjectDemoFunctionality\\ComputerShopManagement-main\\ComputerShopManagerUI\\ComputerShopManagerUI.csproj": {
+    "/home/runner/work/ComputerShopManagerNew/ComputerShopManagerNew/ComputerShopManagerUI/ComputerShopManagerUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ivc21101adm\\Desktop\\Code Conversion\\CodeConversionPlugin\\DotnetProjectDemoFunctionality\\ComputerShopManagement-main\\ComputerShopManagerUI\\ComputerShopManagerUI.csproj",
+        "projectUniqueName": "/home/runner/work/ComputerShopManagerNew/ComputerShopManagerNew/ComputerShopManagerUI/ComputerShopManagerUI.csproj",
         "projectName": "ComputerShopManagerUI",
-        "projectPath": "C:\\Users\\ivc21101adm\\Desktop\\Code Conversion\\CodeConversionPlugin\\DotnetProjectDemoFunctionality\\ComputerShopManagement-main\\ComputerShopManagerUI\\ComputerShopManagerUI.csproj",
-        "packagesPath": "C:\\Users\\ivc21101adm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ivc21101adm\\Desktop\\Code Conversion\\CodeConversionPlugin\\DotnetProjectDemoFunctionality\\ComputerShopManagement-main\\ComputerShopManagerUI\\obj\\",
+        "projectPath": "/home/runner/work/ComputerShopManagerNew/ComputerShopManagerNew/ComputerShopManagerUI/ComputerShopManagerUI.csproj",
+        "packagesPath": "/home/runner/work/ComputerShopManagerNew/.codeql-scratch/dbs/csharp/working/packages",
+        "outputPath": "/home/runner/work/ComputerShopManagerNew/ComputerShopManagerNew/ComputerShopManagerUI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ivc21101adm\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/runner/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -37,7 +37,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -59,6 +60,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[8.0.22, 8.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -67,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

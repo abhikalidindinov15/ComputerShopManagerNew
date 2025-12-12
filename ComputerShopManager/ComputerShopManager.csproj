@@ -13,9 +13,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\StockManager\StockManager.csproj" />
-    <ProjectReference Include="..\SaleManagement\SaleManagement.csproj" />
-    <ProjectReference Include="..\ReportGeneration\ReportGeneration.csproj" />
+    <Reference Include="StockManager">
+      <HintPath>bin\Debug\net8.0\StockManager.dll</HintPath>
+    </Reference>
+    <Reference Include="SaleManagement">
+      <HintPath>bin\Debug\net8.0\SaleManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="ReportGeneration">
+      <HintPath>bin\Debug\net8.0\ReportGeneration.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
