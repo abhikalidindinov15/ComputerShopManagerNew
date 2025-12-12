@@ -1,0 +1,1291 @@
+﻿=== C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\.vscode\launch.json ===
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": []
+}
+=== C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\appsettings.Development.json ===
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  }
+}
+=== C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\appsettings.json ===
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
+}
+=== C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\ComputerShopManager.csproj ===
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.10" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+    <PackageReference Include="System.Data.SQLite" Version="1.0.119" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StockManager\StockManager.csproj" />
+    <ProjectReference Include="..\SaleManagement\SaleManagement.csproj" />
+    <ProjectReference Include="..\ReportGeneration\ReportGeneration.csproj" />
+  </ItemGroup>
+
+</Project>
+=== C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\Program.cs ===
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+
+var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container.
+builder.Services.AddControllers();
+builder.Services.AddSwaggerGen();
+
+// Register services from other projects
+builder.Services.AddScoped<StockManager.Services.StockService>();
+builder.Services.AddScoped<SaleManagement.Services.SaleService>();
+builder.Services.AddScoped<ReportGeneration.Services.WeeklyReportService>();
+//builder.Services.AddScoped<ReportGeneration.Services.MonthlyReportService>();
+//builder.Services.AddScoped<ReportGeneration.Services.YearlyReportService>();
+
+var app = builder.Build();
+
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+
+app.UseHttpsRedirection();
+app.MapControllers();
+app.Run();
+=== C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\Controllers\ReportController.cs ===
+using Microsoft.AspNetCore.Mvc;
+using ReportGeneration.Services;
+using System.Collections.Generic;
+
+namespace ComputerShopManager.Controllers
+{
+    [ApiController]
+    [Route("api/[controller]")]
+    public class ReportController : ControllerBase
+    {
+        private readonly WeeklyReportService _reportService;
+
+        public ReportController()
+        {
+            _reportService = new WeeklyReportService();
+        }
+
+        [HttpGet("stock")]
+        public ActionResult<List<StockReport>> GetStockReport()
+        {
+            var report = _reportService.GenerateStockReport();
+            return Ok(report);
+        }
+
+        [HttpGet("sales")]
+        public ActionResult<List<SaleReport>> GetSalesReport()
+        {
+            var report = _reportService.GenerateSalesReport();
+            return Ok(report);
+        }
+    }
+}
+=== C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\Controllers\ReportData.cs ===
+namespace ComputerShopManager.Controllers
+{
+    public class ReportData
+    {
+        public string ReportContent { get; set; }
+    }
+}
+=== C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\Controllers\SaleController.cs ===
+using Microsoft.AspNetCore.Mvc;
+using SaleManagement.Services;
+
+namespace ComputerShopManager.Controllers
+{
+    [ApiController]
+    [Route("api/[controller]")]
+    public class SaleController : ControllerBase
+    {
+        private readonly SaleService _saleService;
+
+        public SaleController()
+        {
+            _saleService = new SaleService();
+        }
+
+        [HttpPost("add")]
+        public IActionResult AddSale([FromBody] SaleTransaction saleTransaction)
+        {
+            _saleService.AddSaleTransaction(saleTransaction);
+            return Ok("Sale transaction added successfully.");
+        }
+    }
+}
+=== C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\Controllers\StockController.cs ===
+using Microsoft.AspNetCore.Mvc;
+using StockManager.Models;
+using StockManager.Services;
+
+namespace ComputerShopManager.Controllers
+{
+    [ApiController]
+    [Route("api/[controller]")]
+    public class StockController : ControllerBase
+    {
+        private readonly StockService _stockService;
+
+        public StockController()
+        {
+            _stockService = new StockService();
+        }
+
+        [HttpPost("add")]
+        public IActionResult AddStock([FromBody] StockItem stockItem)
+        {
+            _stockService.AddStockItem(stockItem);
+            return Ok("Stock item added successfully.");
+        }
+    }
+}
+=== C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\Controllers\StockReport.cs ===
+namespace ComputerShopManager.Controllers
+{
+    public class StockReport
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public int Quantity { get; set; }
+        public double Price { get; set; }
+    }
+}
+=== C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\Properties\launchSettings.json ===
+{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:12090",
+      "sslPort": 44343
+    }
+  },
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5235",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "https": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7260;http://localhost:5235",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
+=== C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManagerUI\appsettings.Development.json ===
+{
+  "DetailedErrors": true,
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  }
+}
+=== C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManagerUI\appsettings.json ===
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
+}
+=== C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManagerUI\ComputerShopManagerUI.csproj ===
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Http" Version="9.0.0" />
+  </ItemGroup>
+
+</Project>
+=== C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManagerUI\Program.cs ===
+var builder = WebApplication.CreateBuilder(args);
+
+// Register HttpClient for Web API calls
+builder.Services.AddHttpClient("ComputerShopAPI", client =>
+{
+    client.BaseAddress = new Uri("http://localhost:5235"); // Web API URL
+});
+
+builder.Services.AddRazorPages();
+
+
+var app = builder.Build();
+
+if (!app.Environment.IsDevelopment())
+{
+    app.UseExceptionHandler("/Error");
+    app.UseHsts();
+}
+
+app.UseHttpsRedirection();
+app.UseStaticFiles();
+app.UseRouting();
+
+app.MapRazorPages();
+
+app.Run();
+=== C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManagerUI\Pages\Error.cshtml ===
+@page
+@model ErrorModel
+@{
+    ViewData["Title"] = "Error";
+}
+
+<h1 class="text-danger">Error.</h1>
+<h2 class="text-danger">An error occurred while processing your request.</h2>
+
+@if (Model.ShowRequestId)
+{
+    <p>
+        <strong>Request ID:</strong> <code>@Model.RequestId</code>
+    </p>
+}
+
+<h3>Development Mode</h3>
+<p>
+    Swapping to the <strong>Development</strong> environment displays detailed information about the error that occurred.
+</p>
+<p>
+    <strong>The Development environment shouldn't be enabled for deployed applications.</strong>
+    It can result in displaying sensitive information from exceptions to end users.
+    For local debugging, enable the <strong>Development</strong> environment by setting the <strong>ASPNETCORE_ENVIRONMENT</strong> environment variable to <strong>Development</strong>
+    and restarting the app.
+</p>
+=== C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManagerUI\Pages\Error.cshtml.cs ===
+using System.Diagnostics;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+
+namespace ComputerShopManagerUI.Pages;
+
+[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+[IgnoreAntiforgeryToken]
+public class ErrorModel : PageModel
+{
+    public string? RequestId { get; set; }
+
+    public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
+
+    private readonly ILogger<ErrorModel> _logger;
+
+    public ErrorModel(ILogger<ErrorModel> logger)
+    {
+        _logger = logger;
+    }
+
+    public void OnGet()
+    {
+        RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier;
+    }
+}
+
+=== C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManagerUI\Pages\Index.cshtml ===
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Computer Shop Manager";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <title>Computer Shop Manager</title>
+</head>
+<body>
+    <div class="container text-center mt-5">
+        <h1 class="mb-4">Welcome to the Computer Shop Manager</h1>
+        <p class="text-muted mb-4">Choose an action below to manage your shop efficiently.</p>
+
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <form method="post" class="d-grid gap-3">
+                    <button type="submit" asp-page-handler="GoToStock" class="btn btn-primary btn-lg">Manage Stock</button>
+                    <button type="submit" asp-page-handler="GoToSale" class="btn btn-success btn-lg">Manage Sales</button>
+                    <button type="submit" asp-page-handler="GoToReport" class="btn btn-info btn-lg text-white">Generate Report</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+=== C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManagerUI\Pages\Index.cshtml.cs ===
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+
+namespace ComputerShopManagerUI.Pages
+{
+    public class IndexModel : PageModel
+    {
+        public IActionResult OnPostGoToStock()
+        {
+            // Redirects to Stock management page
+            return RedirectToPage("/Stock");
+        }
+
+        public IActionResult OnPostGoToSale()
+        {
+            // Redirects to Sale management page
+            return RedirectToPage("/Sales");
+        }
+
+        public IActionResult OnPostGoToReport()
+        {
+            // Redirects to Report generation page
+            return RedirectToPage("/Report");
+        }
+    }
+}
+=== C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManagerUI\Pages\Privacy.cshtml ===
+@page
+@model PrivacyModel
+@{
+    ViewData["Title"] = "Privacy Policy";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Use this page to detail your site's privacy policy.</p>
+=== C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManagerUI\Pages\Privacy.cshtml.cs ===
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+
+namespace ComputerShopManagerUI.Pages;
+
+public class PrivacyModel : PageModel
+{
+    private readonly ILogger<PrivacyModel> _logger;
+
+    public PrivacyModel(ILogger<PrivacyModel> logger)
+    {
+        _logger = logger;
+    }
+
+    public void OnGet()
+    {
+    }
+}
+
+=== C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManagerUI\Pages\Report.cshtml ===
+@page
+@model ReportModel
+@{
+    ViewData["Title"] = "Generate Report";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <title>Generate Report</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <!-- Header -->
+                <h2 class="text-center mb-4">Generate Report</h2>
+                <p class="text-muted text-center">Select the type of report you want to generate.</p>
+
+                <!-- Form Section -->
+                <form method="post" class="card p-4 shadow-sm">
+                    <div class="mb-3">
+                        <label for="ReportType" class="form-label">Report Type</label>
+                        <select asp-for="ReportType" id="ReportType" class="form-select">
+                            <option value="" disabled selected>Select a report type</option>
+                            <option>Sale</option>
+                            <option>Stock</option>
+                        </select>
+                        <span asp-validation-for="ReportType" class="text-danger"></span>
+                    </div>
+
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary">Generate Report</button>
+                    </div>
+                </form>
+
+                <!-- Report Data Section -->
+                @if (Model.ReportData != null)
+                {
+                    <div class="mt-4">
+                        <h3>Report Data</h3>
+                        <pre class="bg-light p-3 border rounded">@Model.ReportData</pre>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+=== C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManagerUI\Pages\Report.cshtml.cs ===
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using System.Net.Http;
+using System.Threading.Tasks;
+
+public class ReportModel : PageModel
+{
+    private readonly IHttpClientFactory _clientFactory;
+    public ReportModel(IHttpClientFactory clientFactory) => _clientFactory = clientFactory;
+
+    [BindProperty]
+    public string ReportType { get; set; }
+
+    public string ReportData { get; set; }
+
+
+    public async Task<IActionResult> OnPostAsync()
+    {
+        var client = _clientFactory.CreateClient("ComputerShopAPI");
+            var url = string.Empty;
+if (ReportType == "Sale")   
+    url = "/api/Report/sales";
+else
+    url = "/api/Report/stock";
+
+var response = await client.GetAsync(url);
+        
+        if (response.IsSuccessStatusCode)
+            ReportData = await response.Content.ReadAsStringAsync();
+        else
+            ReportData = "Failed to fetch report.";
+
+        return Page();
+    }
+}
+=== C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManagerUI\Pages\Sales.cshtml ===
+@page
+@model SalesModel
+@{
+    ViewData["Title"] = "Add Sale";
+}
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <h2 class="text-center">Add Sale</h2>
+            <p class="text-muted text-center">Record a new sale by entering the item details below.</p>
+
+            <!-- Form Section -->
+            <form method="post" class="mt-4">
+                <div class="mb-3">
+                    <label for="StockItemId" class="form-label">Item ID</label>
+                    <input asp-for="StockItemId" type="number" id="StockItemId" class="form-control" placeholder="Enter item ID" />
+                    <span asp-validation-for="StockItemId" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label for="Quantity" class="form-label">Quantity</label>
+                    <input asp-for="Quantity" type="number" id="Quantity" class="form-control" placeholder="Enter quantity" />
+                    <span asp-validation-for="Quantity" class="text-danger"></span>
+                </div>
+
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-primary">Add Sale</button>
+                </div>
+            </form>
+
+            <!-- Message Section -->
+            @if (!string.IsNullOrEmpty(Model.Message))
+            {
+                <div class="alert alert-info mt-4" role="alert">
+                    @Model.Message
+                </div>
+            }
+        </div>
+    </div>
+</div>
+=== C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManagerUI\Pages\Sales.cshtml.cs ===
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using System.Net.Http;
+using System.Text;
+using System.Text.Json;
+using System.Threading.Tasks;
+
+public class SalesModel : PageModel
+{
+    private readonly IHttpClientFactory _clientFactory;
+    public SalesModel(IHttpClientFactory clientFactory) => _clientFactory = clientFactory;
+
+    [BindProperty]
+    public int StockItemId { get; set; }
+    
+    [BindProperty]
+    public int Quantity { get; set; }
+    
+    public string Message { get; set; }
+
+    public async Task<IActionResult> OnPostAsync()
+    {
+        var client = _clientFactory.CreateClient("ComputerShopAPI");
+        var saleItem = new { StockItemId = StockItemId, Quantity = Quantity};
+        var content = new StringContent(JsonSerializer.Serialize(saleItem), Encoding.UTF8, "application/json");
+
+        var response = await client.PostAsync("api/Sale/add", content);
+        if (response.IsSuccessStatusCode)
+            Message = "Sale added successfully!";
+        else
+            Message = "Failed to add sale.";
+
+        return Page();
+    }
+}
+=== C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManagerUI\Pages\Stock.cshtml ===
+@page
+@model StockModel
+@{
+    ViewData["Title"] = "Add Stock Item";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <title>Add Stock Item</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <!-- Header -->
+                <h2 class="text-center mb-4">Add Stock Item</h2>
+                <p class="text-muted text-center">Fill in the details below to add a new stock item.</p>
+
+                <!-- Form Section -->
+                <form method="post" class="card p-4 shadow-sm">
+                    <div class="mb-3">
+                        <label for="StockItemName" class="form-label">Item Name</label>
+                        <input asp-for="StockItemName" id="StockItemName" class="form-control" placeholder="Enter item name" />
+                        <span asp-validation-for="StockItemName" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="Quantity" class="form-label">Quantity</label>
+                        <input asp-for="Quantity" id="Quantity" class="form-control" type="number" placeholder="Enter quantity" />
+                        <span asp-validation-for="Quantity" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="Price" class="form-label">Price</label>
+                        <input asp-for="Price" id="Price" class="form-control" type="number" placeholder="Enter price" step="0.01" />
+                        <span asp-validation-for="Price" class="text-danger"></span>
+                    </div>
+
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary">Add Stock</button>
+                    </div>
+                </form>
+
+                <!-- Message Section -->
+                @if (Model.Message != null)
+                {
+                    <div class="alert alert-success mt-4" role="alert">
+                        @Model.Message
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+=== C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManagerUI\Pages\Stock.cshtml.cs ===
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using System.Net.Http;
+using System.Text;
+using System.Text.Json;
+using System.Threading.Tasks;
+
+public class StockModel : PageModel
+{
+    private readonly IHttpClientFactory _clientFactory;
+    public StockModel(IHttpClientFactory clientFactory) => _clientFactory = clientFactory;
+
+    [BindProperty]
+    public string StockItemName { get; set; }
+    
+    [BindProperty]
+    public int Quantity { get; set; }
+
+    [BindProperty]
+    public double Price{get;set;}
+    
+    public string Message { get; set; }
+
+    public async Task<IActionResult> OnPostAsync()
+    {
+        var client = _clientFactory.CreateClient("ComputerShopAPI");
+        //var stockItem = new { StockItemName, Quantity, Price};
+        var stockItem = new { Name = StockItemName, Quantity = Quantity, Price = Price };
+        var content = new StringContent(JsonSerializer.Serialize(stockItem), Encoding.UTF8, "application/json");
+
+        var response = await client.PostAsync("/api/Stock/add", content);
+        if (response.IsSuccessStatusCode)
+            Message = "Stock item added successfully!";
+        else
+            Message = "Failed to add stock item.";
+
+        return Page();
+    }
+}
+=== C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManagerUI\Pages\_ViewImports.cshtml ===
+@using ComputerShopManagerUI
+@namespace ComputerShopManagerUI.Pages
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+=== C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManagerUI\Pages\_ViewStart.cshtml ===
+@{
+    Layout = "_Layout";
+}
+=== C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManagerUI\Pages\Shared\_Layout.cshtml ===
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ComputerShopManagerUI</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/ComputerShopManagerUI.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-page="/Index">ComputerShopManagerUI</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2024 - ComputerShopManagerUI - <a asp-area="" asp-page="/Privacy">Privacy</a>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+=== C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManagerUI\Pages\Shared\_Layout.cshtml.css ===
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a {
+  color: #0077cc;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+=== C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManagerUI\Pages\Shared\_ValidationScriptsPartial.cshtml ===
+<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+=== C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManagerUI\Properties\launchSettings.json ===
+{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:22041",
+      "sslPort": 44360
+    }
+  },
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "applicationUrl": "http://localhost:5030",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "https": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "applicationUrl": "https://localhost:7177;http://localhost:5030",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
+=== C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManagerUI\wwwroot\css\site.css ===
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+=== C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ReportGeneration\ReportGeneration.csproj ===
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SQLite" Version="1.0.119" />
+  </ItemGroup>
+
+</Project>
+=== C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ReportGeneration\Models\ReportData.cs ===
+namespace ReportGeneration.Models
+{
+    public class ReportData
+    {
+        public string ReportContent { get; set; }
+    }
+}
+=== C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ReportGeneration\Services\ReportService.cs ===
+using System;
+using System.Collections.Generic;
+using System.Data.SQLite;
+using ReportGeneration.Models;
+
+namespace ReportGeneration.Services
+{
+    public class ReportService
+    {
+        private readonly string _connectionString = "Data Source=ComputerShopManager.db;Version=3;";
+
+        public List<StockReport> GenerateStockReport()
+        {
+            var stockReport = new List<StockReport>();
+            using (var connection = new SQLiteConnection(_connectionString))
+            {
+                connection.Open();
+                string query = "SELECT Id, Name, Quantity, Price FROM StockItem;";
+                using (var command = new SQLiteCommand(query, connection))
+                using (var reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        stockReport.Add(new StockReport
+                        {
+                            Id = Convert.ToInt32(reader["Id"]),
+                            Name = reader["Name"].ToString(),
+                            Quantity = Convert.ToInt32(reader["Quantity"]),
+                            Price = Convert.ToDouble(reader["Price"])
+                        });
+                    }
+                }
+            }
+            return stockReport;
+        }
+
+        public List<SaleReport> GenerateSalesReport()
+        {
+            var salesReport = new List<SaleReport>();
+            using (var connection = new SQLiteConnection(_connectionString))
+            {
+                connection.Open();
+                string query = @"SELECT SaleTransaction.Id, StockItem.Name, SaleTransaction.Quantity, SaleTransaction.SaleDate
+                                 FROM SaleTransaction
+                                 JOIN StockItem ON SaleTransaction.StockItemId = StockItem.Id;";
+                using (var command = new SQLiteCommand(query, connection))
+                using (var reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        salesReport.Add(new SaleReport
+                        {
+                            SaleId = Convert.ToInt32(reader["Id"]),
+                            ItemName = reader["Name"].ToString(),
+                            QuantitySold = Convert.ToInt32(reader["Quantity"]),
+                            SaleDate = Convert.ToDateTime(reader["SaleDate"])
+                        });
+                    }
+                }
+            }
+            return salesReport;
+        }
+    }
+}
+=== C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ReportGeneration\Services\SaleReport.cs ===
+using System;
+
+namespace ReportGeneration.Services
+{
+    public class SaleReport
+    {
+        public int SaleId { get; set; }
+        public string ItemName { get; set; }
+        public int QuantitySold { get; set; }
+        public DateTime SaleDate { get; set; }
+    }
+}
+=== C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ReportGeneration\Services\StockReport.cs ===
+namespace ReportGeneration.Services
+{
+    public class StockReport
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public int Quantity { get; set; }
+        public double Price { get; set; }
+    }
+}
+=== C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ReportGeneration\Services\WeeklyReportService.cs ===
+using System.Data.SQLite;
+namespace ReportGeneration.Services
+{
+    public class WeeklyReportService
+    {
+         private readonly string _connectionString = "Data Source=ComputerShopManager.db;Version=3;";
+
+        public List<StockReport> GenerateStockReport()
+        {
+            var stockReport = new List<StockReport>();
+            using (var connection = new SQLiteConnection(_connectionString))
+            {
+                connection.Open();
+                string query = "SELECT Id, Name, Quantity, Price FROM StockItem;";
+                using (var command = new SQLiteCommand(query, connection))
+                using (var reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        stockReport.Add(new StockReport
+                        {
+                            Id = Convert.ToInt32(reader["Id"]),
+                            Name = reader["Name"].ToString(),
+                            Quantity = Convert.ToInt32(reader["Quantity"]),
+                            Price = Convert.ToDouble(reader["Price"])
+                        });
+                    }
+                }
+            }
+            return stockReport;
+        }
+
+        public List<SaleReport> GenerateSalesReport()
+        {
+            var salesReport = new List<SaleReport>();
+            using (var connection = new SQLiteConnection(_connectionString))
+            {
+                connection.Open();
+                string query = @"SELECT SaleTransaction.Id, StockItem.Name, SaleTransaction.Quantity, SaleTransaction.SaleDate
+                                 FROM SaleTransaction
+                                 JOIN StockItem ON SaleTransaction.StockItemId = StockItem.Id;";
+                using (var command = new SQLiteCommand(query, connection))
+                using (var reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        salesReport.Add(new SaleReport
+                        {
+                            SaleId = Convert.ToInt32(reader["Id"]),
+                            ItemName = reader["Name"].ToString(),
+                            QuantitySold = Convert.ToInt32(reader["Quantity"]),
+                            SaleDate = Convert.ToDateTime(reader["SaleDate"])
+                        });
+                    }
+                }
+            }
+            return salesReport;
+        }
+    
+    }
+}
+=== C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\SaleManagement\SaleManagement.csproj ===
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\StockManager\StockManager.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
+=== C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\SaleManagement\Services\SaleService.cs ===
+using System;
+using System.Data.SQLite;
+
+namespace SaleManagement.Services
+{
+    public class SaleService
+    {
+        private readonly string _connectionString = "Data Source=ComputerShopManager.db;Version=3;";
+
+        public SaleService()
+        {
+            InitializeDatabase();
+        }
+
+        private void InitializeDatabase()
+        {
+            using (var connection = new SQLiteConnection(_connectionString))
+            {
+                connection.Open();
+                string saleTableQuery = @"CREATE TABLE IF NOT EXISTS SaleTransaction (
+                                            Id INTEGER PRIMARY KEY AUTOINCREMENT,
+                                            StockItemId INTEGER,
+                                            Quantity INTEGER,
+                                            SaleDate TEXT,
+                                            FOREIGN KEY (StockItemId) REFERENCES StockItem (Id)
+                                        );";
+                using (var command = new SQLiteCommand(saleTableQuery, connection))
+                {
+                    command.ExecuteNonQuery();
+                }
+            }
+        }
+
+        // Add a new sale transaction and deduct stock
+        public string AddSaleTransaction(SaleTransaction saleTransaction)
+        {
+            using (var connection = new SQLiteConnection(_connectionString))
+            {
+                connection.Open();
+
+                // Check if enough stock is available
+                int currentStock = GetStockQuantity(saleTransaction.StockItemId);
+                if (currentStock < saleTransaction.Quantity)
+                {
+                    return $"Insufficient stock. Available: {currentStock}, Requested: {saleTransaction.Quantity}.";
+                }
+
+                // Deduct the stock
+                DeductStock(saleTransaction.StockItemId, saleTransaction.Quantity);
+
+                // Record the sale transaction
+                string insertQuery = "INSERT INTO SaleTransaction (StockItemId, Quantity, SaleDate) VALUES (@StockItemId, @Quantity, @SaleDate);";
+                using (var command = new SQLiteCommand(insertQuery, connection))
+                {
+                    command.Parameters.AddWithValue("@StockItemId", saleTransaction.StockItemId);
+                    command.Parameters.AddWithValue("@Quantity", saleTransaction.Quantity);
+                    command.Parameters.AddWithValue("@SaleDate", saleTransaction.SaleDate.ToString("yyyy-MM-dd HH:mm:ss"));
+                    command.ExecuteNonQuery();
+                }
+            }
+            return "Sale transaction added successfully and stock updated.";
+        }
+
+        private int GetStockQuantity(int stockItemId)
+        {
+            using (var connection = new SQLiteConnection(_connectionString))
+            {
+                connection.Open();
+                string query = "SELECT Quantity FROM StockItem WHERE Id = @StockItemId;";
+                using (var command = new SQLiteCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@StockItemId", stockItemId);
+                    object result = command.ExecuteScalar();
+                    return result == null ? 0 : Convert.ToInt32(result);
+                }
+            }
+        }
+
+        private void DeductStock(int stockItemId, int quantityToDeduct)
+        {
+            using (var connection = new SQLiteConnection(_connectionString))
+            {
+                connection.Open();
+                string updateQuery = "UPDATE StockItem SET Quantity = Quantity - @QuantityToDeduct WHERE Id = @StockItemId;";
+                using (var command = new SQLiteCommand(updateQuery, connection))
+                {
+                    command.Parameters.AddWithValue("@QuantityToDeduct", quantityToDeduct);
+                    command.Parameters.AddWithValue("@StockItemId", stockItemId);
+                    command.ExecuteNonQuery();
+                }
+            }
+        }
+    }
+}
+=== C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\SaleManagement\Services\SaleTransaction.cs ===
+using System;
+
+namespace SaleManagement.Services
+{
+    public class SaleTransaction
+    {
+        public int Id { get; set; }
+        public int StockItemId { get; set; }
+        public int Quantity { get; set; }
+        public DateTime SaleDate { get; set; }
+    }
+}
+=== C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\SaleManagement\Services\StockServiceIntegration.cs ===
+using StockManager.Services;
+
+namespace SaleManagement.Services
+{
+    public class StockServiceIntegration
+    {
+        private readonly StockService _stockService;
+
+        public StockServiceIntegration(StockService stockService)
+        {
+            _stockService = stockService;
+        }
+
+        public void CheckStockAvailability(int stockItemId)
+        {
+            // Check stock logic
+        }
+    }
+}
+=== C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\StockManager\StockManager.csproj ===
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SQLite" Version="1.0.119" />
+  </ItemGroup>
+
+</Project>
+=== C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\StockManager\Models\StockItem.cs ===
+namespace StockManager.Models
+{
+    public class StockItem
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public int Quantity { get; set; }
+        public double Price { get; set; }
+    }
+}
+=== C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\StockManager\Services\ExcelImportService.cs ===
+namespace StockManager.Services
+{
+    public class ExcelImportService
+    {
+        public void ImportFromExcel(string filePath)
+        {
+            // Import logic
+        }
+    }
+}
+=== C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\StockManager\Services\ReportGenerationService.cs ===
+namespace StockManager.Services
+{
+    public class ReportGenerationService
+    {
+        public string GenerateStockReport()
+        {
+            // Report generation logic
+            return "Stock Report Generated";
+        }
+    }
+}
+=== C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\StockManager\Services\StockService.cs ===
+using System;
+using System.Data.SQLite;
+using StockManager.Models;
+
+namespace StockManager.Services
+{
+    public class StockService
+    {
+        private readonly string _connectionString = "Data Source=ComputerShopManager.db;Version=3;";
+
+        public StockService()
+        {
+            InitializeDatabase();
+        }
+
+        // Create the table if it doesn't exist
+        private void InitializeDatabase()
+        {
+            using (var connection = new SQLiteConnection(_connectionString))
+            {
+                connection.Open();
+                string tableQuery = @"CREATE TABLE IF NOT EXISTS StockItem (
+                                        Id INTEGER PRIMARY KEY AUTOINCREMENT,
+                                        Name TEXT NOT NULL,
+                                        Quantity INTEGER,
+                                        Price REAL
+                                    );";
+                using (var command = new SQLiteCommand(tableQuery, connection))
+                {
+                    command.ExecuteNonQuery();
+                }
+            }
+        }
+
+        // Add a new stock item
+        public void AddStockItem(StockItem stockItem)
+        {
+            using (var connection = new SQLiteConnection(_connectionString))
+            {
+                connection.Open();
+                string insertQuery = "INSERT INTO StockItem (Name, Quantity, Price) VALUES (@Name, @Quantity, @Price);";
+                
+                using (var command = new SQLiteCommand(insertQuery, connection))
+                {
+                    command.Parameters.AddWithValue("@Name", stockItem.Name);
+                    command.Parameters.AddWithValue("@Quantity", stockItem.Quantity);
+                    command.Parameters.AddWithValue("@Price", stockItem.Price);
+                    command.ExecuteNonQuery();
+                }
+            }
+        }
+    }
+}
