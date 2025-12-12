@@ -36,7 +36,7 @@ namespace ComputerShopManager.Controllers
             var report = _reportService.GenerateStockReport();
             var csv = ConvertStockReportToCsv(report);
             var bytes = Encoding.UTF8.GetBytes(csv);
-            return File(bytes, "text/csv", $"stock_report_{DateTime.Now:yyyyMMdd_HHmmss}.csv");
+            return File(bytes, "text/csv", $"stock_report_{DateTime.UtcNow:yyyyMMdd_HHmmss}.csv");
         }
 
         private string ConvertStockReportToCsv(List<ReportGeneration.Services.StockReport> report)
