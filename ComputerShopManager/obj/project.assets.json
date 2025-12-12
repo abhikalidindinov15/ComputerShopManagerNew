@@ -495,45 +495,6 @@
             "rid": "win"
           }
         }
-      },
-      "ReportGeneration/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "System.Data.SQLite": "1.0.119"
-        },
-        "compile": {
-          "bin/placeholder/ReportGeneration.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ReportGeneration.dll": {}
-        }
-      },
-      "SaleManagement/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "StockManager": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/SaleManagement.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SaleManagement.dll": {}
-        }
-      },
-      "StockManager/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "System.Data.SQLite": "1.0.119"
-        },
-        "compile": {
-          "bin/placeholder/StockManager.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/StockManager.dll": {}
-        }
       }
     }
   },
@@ -1715,47 +1676,29 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-    },
-    "ReportGeneration/1.0.0": {
-      "type": "project",
-      "path": "../ReportGeneration/ReportGeneration.csproj",
-      "msbuildProject": "../ReportGeneration/ReportGeneration.csproj"
-    },
-    "SaleManagement/1.0.0": {
-      "type": "project",
-      "path": "../SaleManagement/SaleManagement.csproj",
-      "msbuildProject": "../SaleManagement/SaleManagement.csproj"
-    },
-    "StockManager/1.0.0": {
-      "type": "project",
-      "path": "../StockManager/StockManager.csproj",
-      "msbuildProject": "../StockManager/StockManager.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.AspNetCore.OpenApi >= 8.0.10",
-      "ReportGeneration >= 1.0.0",
-      "SaleManagement >= 1.0.0",
-      "StockManager >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.6.2",
       "System.Data.SQLite >= 1.0.119"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ivc21101adm\\.nuget\\packages\\": {}
+    "/home/runner/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ivc21101adm\\Desktop\\Code Conversion\\CodeConversionPlugin\\DotnetProjectDemoFunctionality\\ComputerShopManagement-main\\ComputerShopManager\\ComputerShopManager.csproj",
+      "projectUniqueName": "/home/runner/work/ComputerShopManagerNew/ComputerShopManagerNew/ComputerShopManager/ComputerShopManager.csproj",
       "projectName": "ComputerShopManager",
-      "projectPath": "C:\\Users\\ivc21101adm\\Desktop\\Code Conversion\\CodeConversionPlugin\\DotnetProjectDemoFunctionality\\ComputerShopManagement-main\\ComputerShopManager\\ComputerShopManager.csproj",
-      "packagesPath": "C:\\Users\\ivc21101adm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ivc21101adm\\Desktop\\Code Conversion\\CodeConversionPlugin\\DotnetProjectDemoFunctionality\\ComputerShopManagement-main\\ComputerShopManager\\obj\\",
+      "projectPath": "/home/runner/work/ComputerShopManagerNew/ComputerShopManagerNew/ComputerShopManager/ComputerShopManager.csproj",
+      "packagesPath": "/home/runner/.nuget/packages/",
+      "outputPath": "/home/runner/work/ComputerShopManagerNew/ComputerShopManagerNew/ComputerShopManager/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ivc21101adm\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/runner/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -1766,17 +1709,7 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {
-            "C:\\Users\\ivc21101adm\\Desktop\\Code Conversion\\CodeConversionPlugin\\DotnetProjectDemoFunctionality\\ComputerShopManagement-main\\ReportGeneration\\ReportGeneration.csproj": {
-              "projectPath": "C:\\Users\\ivc21101adm\\Desktop\\Code Conversion\\CodeConversionPlugin\\DotnetProjectDemoFunctionality\\ComputerShopManagement-main\\ReportGeneration\\ReportGeneration.csproj"
-            },
-            "C:\\Users\\ivc21101adm\\Desktop\\Code Conversion\\CodeConversionPlugin\\DotnetProjectDemoFunctionality\\ComputerShopManagement-main\\SaleManagement\\SaleManagement.csproj": {
-              "projectPath": "C:\\Users\\ivc21101adm\\Desktop\\Code Conversion\\CodeConversionPlugin\\DotnetProjectDemoFunctionality\\ComputerShopManagement-main\\SaleManagement\\SaleManagement.csproj"
-            },
-            "C:\\Users\\ivc21101adm\\Desktop\\Code Conversion\\CodeConversionPlugin\\DotnetProjectDemoFunctionality\\ComputerShopManagement-main\\StockManager\\StockManager.csproj": {
-              "projectPath": "C:\\Users\\ivc21101adm\\Desktop\\Code Conversion\\CodeConversionPlugin\\DotnetProjectDemoFunctionality\\ComputerShopManagement-main\\StockManager\\StockManager.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -1788,7 +1721,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -1826,7 +1760,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

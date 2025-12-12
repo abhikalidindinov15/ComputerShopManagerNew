@@ -1,326 +1,338 @@
-E:\Demo\CompleteSolution\ComputerShopManager\bin\Debug\net8.0\appsettings.Development.json
-E:\Demo\CompleteSolution\ComputerShopManager\bin\Debug\net8.0\appsettings.json
-E:\Demo\CompleteSolution\ComputerShopManager\bin\Debug\net8.0\ComputerShopManager.exe
-E:\Demo\CompleteSolution\ComputerShopManager\bin\Debug\net8.0\ComputerShopManager.deps.json
-E:\Demo\CompleteSolution\ComputerShopManager\bin\Debug\net8.0\ComputerShopManager.runtimeconfig.json
-E:\Demo\CompleteSolution\ComputerShopManager\bin\Debug\net8.0\ComputerShopManager.dll
-E:\Demo\CompleteSolution\ComputerShopManager\bin\Debug\net8.0\ComputerShopManager.pdb
-E:\Demo\CompleteSolution\ComputerShopManager\bin\Debug\net8.0\EntityFramework.SqlServer.dll
-E:\Demo\CompleteSolution\ComputerShopManager\bin\Debug\net8.0\EntityFramework.dll
-E:\Demo\CompleteSolution\ComputerShopManager\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
-E:\Demo\CompleteSolution\ComputerShopManager\bin\Debug\net8.0\Microsoft.OpenApi.dll
-E:\Demo\CompleteSolution\ComputerShopManager\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
-E:\Demo\CompleteSolution\ComputerShopManager\bin\Debug\net8.0\System.Data.SQLite.dll
-E:\Demo\CompleteSolution\ComputerShopManager\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-E:\Demo\CompleteSolution\ComputerShopManager\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-E:\Demo\CompleteSolution\ComputerShopManager\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-E:\Demo\CompleteSolution\ComputerShopManager\bin\Debug\net8.0\System.CodeDom.dll
-E:\Demo\CompleteSolution\ComputerShopManager\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-E:\Demo\CompleteSolution\ComputerShopManager\bin\Debug\net8.0\System.Data.SqlClient.dll
-E:\Demo\CompleteSolution\ComputerShopManager\bin\Debug\net8.0\System.Data.SQLite.EF6.dll
-E:\Demo\CompleteSolution\ComputerShopManager\bin\Debug\net8.0\System.Drawing.Common.dll
-E:\Demo\CompleteSolution\ComputerShopManager\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-E:\Demo\CompleteSolution\ComputerShopManager\bin\Debug\net8.0\System.Security.Permissions.dll
-E:\Demo\CompleteSolution\ComputerShopManager\bin\Debug\net8.0\System.Windows.Extensions.dll
-E:\Demo\CompleteSolution\ComputerShopManager\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-E:\Demo\CompleteSolution\ComputerShopManager\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
-E:\Demo\CompleteSolution\ComputerShopManager\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
-E:\Demo\CompleteSolution\ComputerShopManager\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
-E:\Demo\CompleteSolution\ComputerShopManager\bin\Debug\net8.0\runtimes\linux-x64\native\SQLite.Interop.dll
-E:\Demo\CompleteSolution\ComputerShopManager\bin\Debug\net8.0\runtimes\osx-x64\native\SQLite.Interop.dll
-E:\Demo\CompleteSolution\ComputerShopManager\bin\Debug\net8.0\runtimes\win-x64\native\SQLite.Interop.dll
-E:\Demo\CompleteSolution\ComputerShopManager\bin\Debug\net8.0\runtimes\win-x86\native\SQLite.Interop.dll
-E:\Demo\CompleteSolution\ComputerShopManager\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-E:\Demo\CompleteSolution\ComputerShopManager\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-E:\Demo\CompleteSolution\ComputerShopManager\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-E:\Demo\CompleteSolution\ComputerShopManager\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-E:\Demo\CompleteSolution\ComputerShopManager\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-E:\Demo\CompleteSolution\ComputerShopManager\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-E:\Demo\CompleteSolution\ComputerShopManager\bin\Debug\net8.0\ReportGeneration.dll
-E:\Demo\CompleteSolution\ComputerShopManager\bin\Debug\net8.0\SaleManagement.dll
-E:\Demo\CompleteSolution\ComputerShopManager\bin\Debug\net8.0\StockManager.dll
-E:\Demo\CompleteSolution\ComputerShopManager\bin\Debug\net8.0\StockManager.pdb
-E:\Demo\CompleteSolution\ComputerShopManager\bin\Debug\net8.0\SaleManagement.pdb
-E:\Demo\CompleteSolution\ComputerShopManager\bin\Debug\net8.0\ReportGeneration.pdb
-E:\Demo\CompleteSolution\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.csproj.AssemblyReference.cache
-E:\Demo\CompleteSolution\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.GeneratedMSBuildEditorConfig.editorconfig
-E:\Demo\CompleteSolution\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.AssemblyInfoInputs.cache
-E:\Demo\CompleteSolution\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.AssemblyInfo.cs
-E:\Demo\CompleteSolution\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.csproj.CoreCompileInputs.cache
-E:\Demo\CompleteSolution\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.MvcApplicationPartsAssemblyInfo.cs
-E:\Demo\CompleteSolution\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.MvcApplicationPartsAssemblyInfo.cache
-E:\Demo\CompleteSolution\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.sourcelink.json
-E:\Demo\CompleteSolution\ComputerShopManager\obj\Debug\net8.0\staticwebassets.build.json
-E:\Demo\CompleteSolution\ComputerShopManager\obj\Debug\net8.0\staticwebassets.development.json
-E:\Demo\CompleteSolution\ComputerShopManager\obj\Debug\net8.0\staticwebassets\msbuild.ComputerShopManager.Microsoft.AspNetCore.StaticWebAssets.props
-E:\Demo\CompleteSolution\ComputerShopManager\obj\Debug\net8.0\staticwebassets\msbuild.build.ComputerShopManager.props
-E:\Demo\CompleteSolution\ComputerShopManager\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ComputerShopManager.props
-E:\Demo\CompleteSolution\ComputerShopManager\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ComputerShopManager.props
-E:\Demo\CompleteSolution\ComputerShopManager\obj\Debug\net8.0\staticwebassets.pack.json
-E:\Demo\CompleteSolution\ComputerShopManager\obj\Debug\net8.0\scopedcss\bundle\ComputerShopManager.styles.css
-E:\Demo\CompleteSolution\ComputerShopManager\obj\Debug\net8.0\Computer.06E22440.Up2Date
-E:\Demo\CompleteSolution\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.dll
-E:\Demo\CompleteSolution\ComputerShopManager\obj\Debug\net8.0\refint\ComputerShopManager.dll
-E:\Demo\CompleteSolution\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.pdb
-E:\Demo\CompleteSolution\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.genruntimeconfig.cache
-E:\Demo\CompleteSolution\ComputerShopManager\obj\Debug\net8.0\ref\ComputerShopManager.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.pdb
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\appsettings.json
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\ComputerShopManager.exe
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\ComputerShopManager.deps.json
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\ComputerShopManager.runtimeconfig.json
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\ComputerShopManager.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\ComputerShopManager.pdb
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\EntityFramework.SqlServer.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\EntityFramework.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\Microsoft.OpenApi.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\System.Data.SQLite.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\System.CodeDom.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\System.Data.SqlClient.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\System.Data.SQLite.EF6.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\System.Drawing.Common.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\System.Security.Permissions.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\System.Windows.Extensions.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\linux-x64\native\SQLite.Interop.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\osx-x64\native\SQLite.Interop.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\win-x64\native\SQLite.Interop.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\win-x86\native\SQLite.Interop.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\ReportGeneration.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\SaleManagement.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\StockManager.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\StockManager.pdb
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\SaleManagement.pdb
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\ReportGeneration.pdb
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.csproj.AssemblyReference.cache
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.AssemblyInfoInputs.cache
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.AssemblyInfo.cs
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.csproj.CoreCompileInputs.cache
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\staticwebassets.build.json
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\staticwebassets\msbuild.ComputerShopManager.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\staticwebassets\msbuild.build.ComputerShopManager.props
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ComputerShopManager.props
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ComputerShopManager.props
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\scopedcss\bundle\ComputerShopManager.styles.css
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\Computer.06E22440.Up2Date
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\refint\ComputerShopManager.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.genruntimeconfig.cache
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProject\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\ref\ComputerShopManager.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\appsettings.json
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\ComputerShopManager.exe
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\ComputerShopManager.deps.json
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\ComputerShopManager.runtimeconfig.json
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\ComputerShopManager.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\ComputerShopManager.pdb
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\EntityFramework.SqlServer.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\EntityFramework.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\Microsoft.OpenApi.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\System.Data.SQLite.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\System.CodeDom.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\System.Data.SqlClient.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\System.Data.SQLite.EF6.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\System.Drawing.Common.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\System.Security.Permissions.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\System.Windows.Extensions.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\linux-x64\native\SQLite.Interop.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\osx-x64\native\SQLite.Interop.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\win-x64\native\SQLite.Interop.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\win-x86\native\SQLite.Interop.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\ReportGeneration.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\SaleManagement.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\StockManager.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\StockManager.pdb
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\SaleManagement.pdb
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\ReportGeneration.pdb
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.csproj.AssemblyReference.cache
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.AssemblyInfoInputs.cache
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.AssemblyInfo.cs
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.csproj.CoreCompileInputs.cache
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\staticwebassets.build.json
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\staticwebassets\msbuild.ComputerShopManager.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\staticwebassets\msbuild.build.ComputerShopManager.props
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ComputerShopManager.props
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ComputerShopManager.props
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\scopedcss\bundle\ComputerShopManager.styles.css
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\Computer.06E22440.Up2Date
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\refint\ComputerShopManager.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.pdb
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.genruntimeconfig.cache
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionFrontandBackendRepo\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\ref\ComputerShopManager.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\appsettings.json
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\ComputerShopManager.exe
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\ComputerShopManager.deps.json
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\ComputerShopManager.runtimeconfig.json
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\ComputerShopManager.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\ComputerShopManager.pdb
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\EntityFramework.SqlServer.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\EntityFramework.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\Microsoft.OpenApi.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\System.Data.SQLite.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\System.CodeDom.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\System.Data.SqlClient.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\System.Data.SQLite.EF6.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\System.Drawing.Common.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\System.Security.Permissions.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\System.Windows.Extensions.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\linux-x64\native\SQLite.Interop.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\osx-x64\native\SQLite.Interop.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\win-x64\native\SQLite.Interop.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\win-x86\native\SQLite.Interop.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\ReportGeneration.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\SaleManagement.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\StockManager.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\StockManager.pdb
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\SaleManagement.pdb
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\ReportGeneration.pdb
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.csproj.AssemblyReference.cache
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.AssemblyInfoInputs.cache
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.AssemblyInfo.cs
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.csproj.CoreCompileInputs.cache
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\staticwebassets.build.json
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\staticwebassets\msbuild.ComputerShopManager.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\staticwebassets\msbuild.build.ComputerShopManager.props
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ComputerShopManager.props
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ComputerShopManager.props
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\scopedcss\bundle\ComputerShopManager.styles.css
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\Computer.06E22440.Up2Date
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\refint\ComputerShopManager.dll
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.pdb
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.genruntimeconfig.cache
-C:\Users\ivc21101adm\Desktop\CodeConversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\ref\ComputerShopManager.dll
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\appsettings.json
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\ComputerShopManager.exe
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\ComputerShopManager.deps.json
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\ComputerShopManager.runtimeconfig.json
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\ComputerShopManager.dll
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\ComputerShopManager.pdb
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\EntityFramework.SqlServer.dll
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\EntityFramework.dll
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\Microsoft.OpenApi.dll
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\System.Data.SQLite.dll
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\System.CodeDom.dll
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\System.Data.SqlClient.dll
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\System.Data.SQLite.EF6.dll
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\System.Drawing.Common.dll
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\System.Security.Permissions.dll
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\System.Windows.Extensions.dll
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\linux-x64\native\SQLite.Interop.dll
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\osx-x64\native\SQLite.Interop.dll
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\win-x64\native\SQLite.Interop.dll
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\win-x86\native\SQLite.Interop.dll
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\ReportGeneration.dll
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\SaleManagement.dll
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\StockManager.dll
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\StockManager.pdb
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\SaleManagement.pdb
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\bin\Debug\net8.0\ReportGeneration.pdb
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.csproj.AssemblyReference.cache
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.AssemblyInfoInputs.cache
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.AssemblyInfo.cs
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.csproj.CoreCompileInputs.cache
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\staticwebassets.build.json
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\staticwebassets\msbuild.ComputerShopManager.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\staticwebassets\msbuild.build.ComputerShopManager.props
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ComputerShopManager.props
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ComputerShopManager.props
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\scopedcss\bundle\ComputerShopManager.styles.css
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\Computer.06E22440.Up2Date
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.dll
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\refint\ComputerShopManager.dll
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.pdb
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\ComputerShopManager.genruntimeconfig.cache
-C:\Users\ivc21101adm\Desktop\Code Conversion\CodeConversionPlugin\DotnetProjectDemoFunctionality\ComputerShopManagement-main\ComputerShopManager\obj\Debug\net8.0\ref\ComputerShopManager.dll
+E:/Demo/CompleteSolution/ComputerShopManager/bin/Debug/net8.0/appsettings.Development.json
+E:/Demo/CompleteSolution/ComputerShopManager/bin/Debug/net8.0/appsettings.json
+E:/Demo/CompleteSolution/ComputerShopManager/bin/Debug/net8.0/ComputerShopManager.exe
+E:/Demo/CompleteSolution/ComputerShopManager/bin/Debug/net8.0/ComputerShopManager.deps.json
+E:/Demo/CompleteSolution/ComputerShopManager/bin/Debug/net8.0/ComputerShopManager.runtimeconfig.json
+E:/Demo/CompleteSolution/ComputerShopManager/bin/Debug/net8.0/ComputerShopManager.dll
+E:/Demo/CompleteSolution/ComputerShopManager/bin/Debug/net8.0/ComputerShopManager.pdb
+E:/Demo/CompleteSolution/ComputerShopManager/bin/Debug/net8.0/EntityFramework.SqlServer.dll
+E:/Demo/CompleteSolution/ComputerShopManager/bin/Debug/net8.0/EntityFramework.dll
+E:/Demo/CompleteSolution/ComputerShopManager/bin/Debug/net8.0/Microsoft.AspNetCore.OpenApi.dll
+E:/Demo/CompleteSolution/ComputerShopManager/bin/Debug/net8.0/Microsoft.OpenApi.dll
+E:/Demo/CompleteSolution/ComputerShopManager/bin/Debug/net8.0/Microsoft.Win32.SystemEvents.dll
+E:/Demo/CompleteSolution/ComputerShopManager/bin/Debug/net8.0/System.Data.SQLite.dll
+E:/Demo/CompleteSolution/ComputerShopManager/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+E:/Demo/CompleteSolution/ComputerShopManager/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+E:/Demo/CompleteSolution/ComputerShopManager/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+E:/Demo/CompleteSolution/ComputerShopManager/bin/Debug/net8.0/System.CodeDom.dll
+E:/Demo/CompleteSolution/ComputerShopManager/bin/Debug/net8.0/System.Configuration.ConfigurationManager.dll
+E:/Demo/CompleteSolution/ComputerShopManager/bin/Debug/net8.0/System.Data.SqlClient.dll
+E:/Demo/CompleteSolution/ComputerShopManager/bin/Debug/net8.0/System.Data.SQLite.EF6.dll
+E:/Demo/CompleteSolution/ComputerShopManager/bin/Debug/net8.0/System.Drawing.Common.dll
+E:/Demo/CompleteSolution/ComputerShopManager/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll
+E:/Demo/CompleteSolution/ComputerShopManager/bin/Debug/net8.0/System.Security.Permissions.dll
+E:/Demo/CompleteSolution/ComputerShopManager/bin/Debug/net8.0/System.Windows.Extensions.dll
+E:/Demo/CompleteSolution/ComputerShopManager/bin/Debug/net8.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+E:/Demo/CompleteSolution/ComputerShopManager/bin/Debug/net8.0/runtimes/win-arm64/native/sni.dll
+E:/Demo/CompleteSolution/ComputerShopManager/bin/Debug/net8.0/runtimes/win-x64/native/sni.dll
+E:/Demo/CompleteSolution/ComputerShopManager/bin/Debug/net8.0/runtimes/win-x86/native/sni.dll
+E:/Demo/CompleteSolution/ComputerShopManager/bin/Debug/net8.0/runtimes/linux-x64/native/SQLite.Interop.dll
+E:/Demo/CompleteSolution/ComputerShopManager/bin/Debug/net8.0/runtimes/osx-x64/native/SQLite.Interop.dll
+E:/Demo/CompleteSolution/ComputerShopManager/bin/Debug/net8.0/runtimes/win-x64/native/SQLite.Interop.dll
+E:/Demo/CompleteSolution/ComputerShopManager/bin/Debug/net8.0/runtimes/win-x86/native/SQLite.Interop.dll
+E:/Demo/CompleteSolution/ComputerShopManager/bin/Debug/net8.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+E:/Demo/CompleteSolution/ComputerShopManager/bin/Debug/net8.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+E:/Demo/CompleteSolution/ComputerShopManager/bin/Debug/net8.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+E:/Demo/CompleteSolution/ComputerShopManager/bin/Debug/net8.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+E:/Demo/CompleteSolution/ComputerShopManager/bin/Debug/net8.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+E:/Demo/CompleteSolution/ComputerShopManager/bin/Debug/net8.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+E:/Demo/CompleteSolution/ComputerShopManager/bin/Debug/net8.0/ReportGeneration.dll
+E:/Demo/CompleteSolution/ComputerShopManager/bin/Debug/net8.0/SaleManagement.dll
+E:/Demo/CompleteSolution/ComputerShopManager/bin/Debug/net8.0/StockManager.dll
+E:/Demo/CompleteSolution/ComputerShopManager/bin/Debug/net8.0/StockManager.pdb
+E:/Demo/CompleteSolution/ComputerShopManager/bin/Debug/net8.0/SaleManagement.pdb
+E:/Demo/CompleteSolution/ComputerShopManager/bin/Debug/net8.0/ReportGeneration.pdb
+E:/Demo/CompleteSolution/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.csproj.AssemblyReference.cache
+E:/Demo/CompleteSolution/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.GeneratedMSBuildEditorConfig.editorconfig
+E:/Demo/CompleteSolution/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.AssemblyInfoInputs.cache
+E:/Demo/CompleteSolution/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.AssemblyInfo.cs
+E:/Demo/CompleteSolution/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.csproj.CoreCompileInputs.cache
+E:/Demo/CompleteSolution/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.MvcApplicationPartsAssemblyInfo.cs
+E:/Demo/CompleteSolution/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.MvcApplicationPartsAssemblyInfo.cache
+E:/Demo/CompleteSolution/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.sourcelink.json
+E:/Demo/CompleteSolution/ComputerShopManager/obj/Debug/net8.0/staticwebassets.build.json
+E:/Demo/CompleteSolution/ComputerShopManager/obj/Debug/net8.0/staticwebassets.development.json
+E:/Demo/CompleteSolution/ComputerShopManager/obj/Debug/net8.0/staticwebassets/msbuild.ComputerShopManager.Microsoft.AspNetCore.StaticWebAssets.props
+E:/Demo/CompleteSolution/ComputerShopManager/obj/Debug/net8.0/staticwebassets/msbuild.build.ComputerShopManager.props
+E:/Demo/CompleteSolution/ComputerShopManager/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.ComputerShopManager.props
+E:/Demo/CompleteSolution/ComputerShopManager/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.ComputerShopManager.props
+E:/Demo/CompleteSolution/ComputerShopManager/obj/Debug/net8.0/staticwebassets.pack.json
+E:/Demo/CompleteSolution/ComputerShopManager/obj/Debug/net8.0/scopedcss/bundle/ComputerShopManager.styles.css
+E:/Demo/CompleteSolution/ComputerShopManager/obj/Debug/net8.0/Computer.06E22440.Up2Date
+E:/Demo/CompleteSolution/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.dll
+E:/Demo/CompleteSolution/ComputerShopManager/obj/Debug/net8.0/refint/ComputerShopManager.dll
+E:/Demo/CompleteSolution/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.pdb
+E:/Demo/CompleteSolution/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.genruntimeconfig.cache
+E:/Demo/CompleteSolution/ComputerShopManager/obj/Debug/net8.0/ref/ComputerShopManager.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.pdb
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/appsettings.Development.json
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/appsettings.json
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/ComputerShopManager.exe
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/ComputerShopManager.deps.json
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/ComputerShopManager.runtimeconfig.json
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/ComputerShopManager.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/ComputerShopManager.pdb
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/EntityFramework.SqlServer.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/EntityFramework.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/Microsoft.AspNetCore.OpenApi.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/Microsoft.OpenApi.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/System.Data.SQLite.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/System.CodeDom.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/System.Configuration.ConfigurationManager.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/System.Data.SqlClient.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/System.Data.SQLite.EF6.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/System.Drawing.Common.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/System.Security.Permissions.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/System.Windows.Extensions.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/win-arm64/native/sni.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/win-x64/native/sni.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/win-x86/native/sni.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/linux-x64/native/SQLite.Interop.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/osx-x64/native/SQLite.Interop.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/win-x64/native/SQLite.Interop.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/win-x86/native/SQLite.Interop.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/ReportGeneration.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/SaleManagement.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/StockManager.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/StockManager.pdb
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/SaleManagement.pdb
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/ReportGeneration.pdb
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.csproj.AssemblyReference.cache
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.AssemblyInfoInputs.cache
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.AssemblyInfo.cs
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.csproj.CoreCompileInputs.cache
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/staticwebassets.build.json
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/staticwebassets.development.json
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/staticwebassets/msbuild.ComputerShopManager.Microsoft.AspNetCore.StaticWebAssets.props
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/staticwebassets/msbuild.build.ComputerShopManager.props
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.ComputerShopManager.props
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.ComputerShopManager.props
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/staticwebassets.pack.json
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/scopedcss/bundle/ComputerShopManager.styles.css
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/Computer.06E22440.Up2Date
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/refint/ComputerShopManager.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.genruntimeconfig.cache
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProject/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/ref/ComputerShopManager.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/appsettings.Development.json
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/appsettings.json
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/ComputerShopManager.exe
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/ComputerShopManager.deps.json
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/ComputerShopManager.runtimeconfig.json
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/ComputerShopManager.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/ComputerShopManager.pdb
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/EntityFramework.SqlServer.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/EntityFramework.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/Microsoft.AspNetCore.OpenApi.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/Microsoft.OpenApi.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/System.Data.SQLite.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/System.CodeDom.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/System.Configuration.ConfigurationManager.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/System.Data.SqlClient.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/System.Data.SQLite.EF6.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/System.Drawing.Common.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/System.Security.Permissions.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/System.Windows.Extensions.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/win-arm64/native/sni.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/win-x64/native/sni.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/win-x86/native/sni.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/linux-x64/native/SQLite.Interop.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/osx-x64/native/SQLite.Interop.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/win-x64/native/SQLite.Interop.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/win-x86/native/SQLite.Interop.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/ReportGeneration.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/SaleManagement.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/StockManager.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/StockManager.pdb
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/SaleManagement.pdb
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/ReportGeneration.pdb
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.csproj.AssemblyReference.cache
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.AssemblyInfoInputs.cache
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.AssemblyInfo.cs
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.csproj.CoreCompileInputs.cache
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/staticwebassets.build.json
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/staticwebassets.development.json
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/staticwebassets/msbuild.ComputerShopManager.Microsoft.AspNetCore.StaticWebAssets.props
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/staticwebassets/msbuild.build.ComputerShopManager.props
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.ComputerShopManager.props
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.ComputerShopManager.props
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/staticwebassets.pack.json
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/scopedcss/bundle/ComputerShopManager.styles.css
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/Computer.06E22440.Up2Date
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/refint/ComputerShopManager.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.pdb
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.genruntimeconfig.cache
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionFrontandBackendRepo/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/ref/ComputerShopManager.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/appsettings.Development.json
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/appsettings.json
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/ComputerShopManager.exe
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/ComputerShopManager.deps.json
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/ComputerShopManager.runtimeconfig.json
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/ComputerShopManager.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/ComputerShopManager.pdb
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/EntityFramework.SqlServer.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/EntityFramework.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/Microsoft.AspNetCore.OpenApi.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/Microsoft.OpenApi.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/System.Data.SQLite.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/System.CodeDom.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/System.Configuration.ConfigurationManager.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/System.Data.SqlClient.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/System.Data.SQLite.EF6.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/System.Drawing.Common.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/System.Security.Permissions.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/System.Windows.Extensions.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/win-arm64/native/sni.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/win-x64/native/sni.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/win-x86/native/sni.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/linux-x64/native/SQLite.Interop.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/osx-x64/native/SQLite.Interop.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/win-x64/native/SQLite.Interop.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/win-x86/native/SQLite.Interop.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/ReportGeneration.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/SaleManagement.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/StockManager.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/StockManager.pdb
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/SaleManagement.pdb
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/ReportGeneration.pdb
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.csproj.AssemblyReference.cache
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.AssemblyInfoInputs.cache
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.AssemblyInfo.cs
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.csproj.CoreCompileInputs.cache
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/staticwebassets.build.json
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/staticwebassets.development.json
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/staticwebassets/msbuild.ComputerShopManager.Microsoft.AspNetCore.StaticWebAssets.props
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/staticwebassets/msbuild.build.ComputerShopManager.props
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.ComputerShopManager.props
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.ComputerShopManager.props
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/staticwebassets.pack.json
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/scopedcss/bundle/ComputerShopManager.styles.css
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/Computer.06E22440.Up2Date
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/refint/ComputerShopManager.dll
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.pdb
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.genruntimeconfig.cache
+C:/Users/ivc21101adm/Desktop/CodeConversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/ref/ComputerShopManager.dll
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/appsettings.Development.json
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/appsettings.json
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/ComputerShopManager.exe
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/ComputerShopManager.deps.json
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/ComputerShopManager.runtimeconfig.json
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/ComputerShopManager.dll
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/ComputerShopManager.pdb
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/EntityFramework.SqlServer.dll
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/EntityFramework.dll
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/Microsoft.AspNetCore.OpenApi.dll
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/Microsoft.OpenApi.dll
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/System.Data.SQLite.dll
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/System.CodeDom.dll
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/System.Configuration.ConfigurationManager.dll
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/System.Data.SqlClient.dll
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/System.Data.SQLite.EF6.dll
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/System.Drawing.Common.dll
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/System.Security.Permissions.dll
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/System.Windows.Extensions.dll
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/win-arm64/native/sni.dll
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/win-x64/native/sni.dll
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/win-x86/native/sni.dll
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/linux-x64/native/SQLite.Interop.dll
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/osx-x64/native/SQLite.Interop.dll
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/win-x64/native/SQLite.Interop.dll
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/win-x86/native/SQLite.Interop.dll
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/ReportGeneration.dll
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/SaleManagement.dll
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/StockManager.dll
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/StockManager.pdb
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/SaleManagement.pdb
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/bin/Debug/net8.0/ReportGeneration.pdb
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.csproj.AssemblyReference.cache
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.AssemblyInfoInputs.cache
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.AssemblyInfo.cs
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.csproj.CoreCompileInputs.cache
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/staticwebassets.build.json
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/staticwebassets.development.json
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/staticwebassets/msbuild.ComputerShopManager.Microsoft.AspNetCore.StaticWebAssets.props
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/staticwebassets/msbuild.build.ComputerShopManager.props
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.ComputerShopManager.props
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.ComputerShopManager.props
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/staticwebassets.pack.json
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/scopedcss/bundle/ComputerShopManager.styles.css
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/Computer.06E22440.Up2Date
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.dll
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/refint/ComputerShopManager.dll
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.pdb
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.genruntimeconfig.cache
+C:/Users/ivc21101adm/Desktop/Code Conversion/CodeConversionPlugin/DotnetProjectDemoFunctionality/ComputerShopManagement-main/ComputerShopManager/obj/Debug/net8.0/ref/ComputerShopManager.dll
+/home/runner/work/ComputerShopManagerNew/ComputerShopManagerNew/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.csproj.AssemblyReference.cache
+/home/runner/work/ComputerShopManagerNew/ComputerShopManagerNew/ComputerShopManager/obj/Debug/net8.0/rpswa.dswa.cache.json
+/home/runner/work/ComputerShopManagerNew/ComputerShopManagerNew/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.GeneratedMSBuildEditorConfig.editorconfig
+/home/runner/work/ComputerShopManagerNew/ComputerShopManagerNew/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.AssemblyInfoInputs.cache
+/home/runner/work/ComputerShopManagerNew/ComputerShopManagerNew/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.AssemblyInfo.cs
+/home/runner/work/ComputerShopManagerNew/ComputerShopManagerNew/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.csproj.CoreCompileInputs.cache
+/home/runner/work/ComputerShopManagerNew/ComputerShopManagerNew/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.MvcApplicationPartsAssemblyInfo.cs
+/home/runner/work/ComputerShopManagerNew/ComputerShopManagerNew/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.MvcApplicationPartsAssemblyInfo.cache
+/home/runner/work/ComputerShopManagerNew/ComputerShopManagerNew/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.sourcelink.json
+/home/runner/work/ComputerShopManagerNew/ComputerShopManagerNew/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.dll
+/home/runner/work/ComputerShopManagerNew/ComputerShopManagerNew/ComputerShopManager/obj/Debug/net8.0/refint/ComputerShopManager.dll
+/home/runner/work/ComputerShopManagerNew/ComputerShopManagerNew/ComputerShopManager/obj/Debug/net8.0/ComputerShopManager.pdb
